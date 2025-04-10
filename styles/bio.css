@@ -1,0 +1,29 @@
+#biografia{
+  background: var(--surface-color);
+
+  & .paragrafo{
+    margin-block: 1rem 2rem;
+  }
+  & .info-viagem li{
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (width >= 68.75em){
+  .info-bio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & .paragrafo{
+      width: 24rem;
+      height: 10.5rem;
+      margin-left: 2rem;
+    }
+
+    & .info-viagem { 
+      margin-inline: auto;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+#Photos{
+  & .fotos{
+    display: inl;
+    gap: 1em;
+  }
+}
+
+@media (width >= 68.75em){
+  &.fotos{
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  & .fotos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5em;
+  }
+}

@@ -1,0 +1,14 @@
+#navegacao{
+  display: flex;
+  justify-content: space-between;
+
+  & .menu ul{
+    display: flex;
+  }
+}
+
+@media (width >= 68.75em){
+  & .only-desktop{
+    display: initial;
+  }
+}

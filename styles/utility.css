@@ -1,0 +1,31 @@
+.my-sm{
+  margin-block: 1.25rem;
+}
+
+.mx-sm{
+  margin-inline: 1.25rem;
+}
+
+.mx-md{
+  margin-inline: 2rem;
+}
+
+.my-md{
+  margin-block: 2rem;
+}
+
+.px-py{
+  padding: 2rem;
+}
+
+.gap-16{
+  gap: 1rem;
+}
+
+.align-itens{
+  align-items: center;
+}
+
+.only-desktop{
+  display: none;
+}
